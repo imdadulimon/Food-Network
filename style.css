@@ -1,19 +1,21 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
     }
     .orange-color{
-        color:orange;
+        color:orangered;
     }
-    section{
+    .flexible-container{
         display:flex;
         margin-bottom: 80px;
+
     }
     .half-width{
         width:50%;
-        padding-left: 5%;
+        padding-left: 2%;
     }
     .half-width img{
         width: 80%;
@@ -21,12 +23,33 @@ h1{
     .background-frame{
         background-image:url(images/shapes/Frame\ 59.jpg);
     }
+    .Recipie-area h1{
+        text-align: center;
+        color: rgb(228, 140, 9);
+    }
+    .recipies-area p{
+        text-align: center;
+        font-size: 14px;
+        color: rgb(90, 78, 78);
+    }
     .link-button{
         text-decoration: none;
         background-color: #fc4727;
         font-weight: 700;
         padding: 10px 40px;
         border-radius: 20px;
-
     }
+.background-color{
+    background-color:rgb(243, 94, 94);
+}
+.background-color h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.blue-color{
+    color: rgb(62, 62, 252);
+}
+   
     
